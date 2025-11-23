@@ -4,17 +4,20 @@ import static comp1110.lib.Functions.*;
 import static comp1110.testing.Comp1110Unit.*;
 
 /**
- * 题目1：查找最短字符串
- * 
+ * 题目：检查所有整数是否相等
  * 题目描述：
- * 编写一个函数 findShortest，接收一个字符串列表 ConsList<String>，返回列表中长度最短的字符串。
- * 
- * 函数签名：
- * String findShortest(ConsList<String> lst)
- * 
+ * 编写一个函数 allIntegersEqual。
+ * 该函数接收一个整数的 ConsList<Integer>（链表）作为输入，
+ * 返回一个布尔值 (boolean)，表示列表中的所有元素是否都相等。
+ * 规则：
+ * - 空列表 (Nil) 和包含单个元素的列表，视为所有元素都相等，应返回 true。
  * 测试用例：
- * - 输入：["abc", "erft", "we"] → 输出："we"
- * - 输入：[""] → 输出：""
+ * - 输入：[] → 输出：true (Empty list)
+ * - 输入：[1] → 输出：true (One element)
+ * - 输入：[1, 1, 1] → 输出：true (Multiple elements (equal))
+ * - 输入：[2, 2, 2, 2, 2, 1] → 输出：false (Last element unequal)
+ * - 输入：[4, 3, 3, 3, 3] → 输出：false (First element unequal)
+ * - 输入：[2, 2, 2, 3, 2, 2, 2] → 输出：false (Middle element unequal)
  */
 boolean allIntegersEqual(ConsList<Integer> aie) {
     return switch(aie) {
