@@ -1,4 +1,4 @@
-import static comp1110.testing.Comp1110Unit.*;
+import static exercise.comp1110.testing.Comp1110Unit.*;
 
 int addIntegerNumbers(int a, int b){
     return a+b;
