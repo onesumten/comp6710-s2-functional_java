@@ -1,7 +1,7 @@
 import static comp1110.testing.Comp1110Unit.*;
 String fizzWizzBuzzRizz(int input){
     /**
-     * 先通过创建一个list来存储
+     * 先通过创建一个list来存储，你好
      */
     List<String> words = new ArrayList<>();
     if(input % 3 == 0){
