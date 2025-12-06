@@ -64,7 +64,6 @@ void testExercise4() {
     String actual7 = fizzWizzBuzzRizz(15);
     testEqual(expected7, actual7, "Divisible by 3 & 5 -> Fizz wizz!");
 
-
     // Some but not all
     String expected8 = "Wizz rizz!";
     String actual8 = fizzWizzBuzzRizz(55);
