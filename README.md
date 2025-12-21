@@ -1,1 +1,2 @@
-这是comp6710-s2的前半课程，关于functional java的
+# Abstract
+This is about the functional java in ANU. It's a new experience of leaning java. Actually this is a toy language which is uesd for education.
